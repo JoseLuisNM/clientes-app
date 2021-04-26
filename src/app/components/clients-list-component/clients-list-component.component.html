@@ -7,7 +7,7 @@
     <th scope="col">Email</th>
     <th scope="col">Sexo</th>
     <th scope="col">Fecha creacion</th>
-    <th scope="col">Acciones</th>
+    <th scope="col" class="text-center">Acciones</th>
   </tr>
   </thead>
   <tbody>
@@ -20,7 +20,7 @@
     <td>{{ cliente.sexo }}</td>
     <td>{{ cliente.fechacreacion | date: 'd/MMM/y' }}</td>
 
-    <td>
+    <td class="text-center">
       <button type="button" class="btn btn-secondary">Modifcar</button>&nbsp;
       <button type="button" class="btn btn-danger" (click)="onDeleteClick(cliente)">Eliminar</button>
     </td>

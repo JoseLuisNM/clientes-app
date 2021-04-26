@@ -38,7 +38,7 @@ export class ClientsListComponentComponent implements OnInit, OnDestroy {
   onDeleteClick(cliente: ICliente): void{
 
       Swal.fire({
-      title: 'Estas seguro que quieres eliminar el cliente ?',
+      title: 'Estas seguro que quieres eliminar el cliente?',
       text: "No podras revertir este cambio!",
       icon: 'warning',
       showCancelButton: true,
@@ -56,7 +56,7 @@ export class ClientsListComponentComponent implements OnInit, OnDestroy {
 
           Swal.fire(
           'Eliminado!',
-          'El cliente se a eliminado.',
+          'El cliente se a eliminado con exito.',
           'success'
         )
 
