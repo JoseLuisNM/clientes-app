@@ -1,0 +1,211 @@
+export const DATA =[{
+  id: 1,
+  nombre: "Edna",
+  apellido: "Karus",
+  email: "ekarus0@google.com.br",
+  sexo: "Female",
+  fecha_creacion: "25/02/2021"
+}, {
+  id: 2,
+  nombre: "Hall",
+  apellido: "Mawman",
+  email: "hmawman1@businessweek.com",
+  sexo: "Non-binary",
+  fecha_creacion: "07/07/2020"
+}, {
+  id: 3,
+  nombre: "Verla",
+  apellido: "Peealess",
+  email: "vpeealess2@google.com.br",
+  sexo: "Female",
+  fecha_creacion: "17/08/2020"
+}, {
+  id: 4,
+  nombre: "Wendie",
+  apellido: "Dumbarton",
+  email: "wdumbarton3@cbc.ca",
+  sexo: "Non-binary",
+  fecha_creacion: "22/04/2020"
+}, {
+  id: 5,
+  nombre: "Allan",
+  apellido: "Khidr",
+  email: "akhidr4@hibu.com",
+  sexo: "Male",
+  fecha_creacion: "22/04/2020"
+}, {
+  id: 6,
+  nombre: "Cassie",
+  apellido: "Oram",
+  email: "coram5@independent.co.uk",
+  sexo: "Polygender",
+  fecha_creacion: "23/12/2020"
+}, {
+  id: 7,
+  nombre: "Toby",
+  apellido: "Gillfillan",
+  email: "tgillfillan6@hexun.com",
+  sexo: "Non-binary",
+  fecha_creacion: "26/05/2020"
+}, {
+  id: 8,
+  nombre: "Hetti",
+  apellido: "Hickford",
+  email: "hhickford7@comcast.net",
+  sexo: "Genderfluid",
+  fecha_creacion: "31/10/2020"
+}, {
+  id: 9,
+  nombre: "Leroi",
+  apellido: "Boddice",
+  email: "lboddice8@webmd.com",
+  sexo: "Agender",
+  fecha_creacion: "29/11/2020"
+}, {
+  id: 10,
+  nombre: "Neal",
+  apellido: "Zylbermann",
+  email: "nzylbermann9@delicious.com",
+  sexo: "Female",
+  fecha_creacion: "13/11/2020"
+}, {
+  id: 11,
+  nombre: "Sandy",
+  apellido: "Witham",
+  email: "swithama@tumblr.com",
+  sexo: "Agender",
+  fecha_creacion: "01/06/2020"
+}, {
+  id: 12,
+  nombre: "Anya",
+  apellido: "Mewha",
+  email: "amewhab@zdnet.com",
+  sexo: "Polygender",
+  fecha_creacion: "05/04/2021"
+}, {
+  id: 13,
+  nombre: "Dix",
+  apellido: "Berth",
+  email: "dberthc@bloglines.com",
+  sexo: "Agender",
+  fecha_creacion: "06/07/2020"
+}, {
+  id: 14,
+  nombre: "Rosemonde",
+  apellido: "Brunker",
+  email: "rbrunkerd@hatena.ne.jp",
+  sexo: "Male",
+  fecha_creacion: "02/10/2020"
+}, {
+  id: 15,
+  nombre: "Aurthur",
+  apellido: "Bastie",
+  email: "abastiee@whitehouse.gov",
+  sexo: "Non-binary",
+  fecha_creacion: "16/08/2020"
+}, {
+  id: 16,
+  nombre: "Nikki",
+  apellido: "Sagg",
+  email: "nsaggf@addthis.com",
+  sexo: "Male",
+  fecha_creacion: "05/09/2020"
+}, {
+  id: 17,
+  nombre: "Garrek",
+  apellido: "Winterton",
+  email: "gwintertong@intel.com",
+  sexo: "Female",
+  fecha_creacion: "21/01/2021"
+}, {
+  id: 18,
+  nombre: "Chiquita",
+  apellido: "Bromhead",
+  email: "cbromheadh@smugmug.com",
+  sexo: "Agender",
+  fecha_creacion: "27/08/2020"
+}, {
+  id: 19,
+  nombre: "Monti",
+  apellido: "Blaszczyk",
+  email: "mblaszczyki@microsoft.com",
+  sexo: "Genderqueer",
+  fecha_creacion: "13/11/2020"
+}, {
+  id: 20,
+  nombre: "Dory",
+  apellido: "MacMeeking",
+  email: "dmacmeekingj@cnet.com",
+  sexo: "Genderqueer",
+  fecha_creacion: "12/10/2020"
+}, {
+  id: 21,
+  nombre: "Vanny",
+  apellido: "McElhargy",
+  email: "vmcelhargyk@ocn.ne.jp",
+  sexo: "Genderfluid",
+  fecha_creacion: "06/11/2020"
+}, {
+  id: 22,
+  nombre: "Cosmo",
+  apellido: "Lonie",
+  email: "cloniel@mlb.com",
+  sexo: "Female",
+  fecha_creacion: "20/12/2020"
+}, {
+  id: 23,
+  nombre: "Sheffie",
+  apellido: "Krabbe",
+  email: "skrabbem@51.la",
+  sexo: "Female",
+  fecha_creacion: "01/06/2020"
+}, {
+  id: 24,
+  nombre: "Delcine",
+  apellido: "Gligori",
+  email: "dgligorin@tumblr.com",
+  sexo: "Male",
+  fecha_creacion: "17/10/2020"
+}, {
+  id: 25,
+  nombre: "Gus",
+  apellido: "Coad",
+  email: "gcoado@google.com.au",
+  sexo: "Polygender",
+  fecha_creacion: "13/06/2020"
+}, {
+  id: 26,
+  nombre: "Frederich",
+  apellido: "Dinnies",
+  email: "fdinniesp@archive.org",
+  sexo: "Polygender",
+  fecha_creacion: "14/06/2020"
+}, {
+  id: 27,
+  nombre: "Demeter",
+  apellido: "Hargreves",
+  email: "dhargrevesq@sourceforge.net",
+  sexo: "Male",
+  fecha_creacion: "25/07/2020"
+}, {
+  id: 28,
+  nombre: "Ardyth",
+  apellido: "Tal",
+  email: "atalr@marketwatch.com",
+  sexo: "Bigender",
+  fecha_creacion: "28/07/2020"
+}, {
+  id: 29,
+  nombre: "Ivan",
+  apellido: "Malicki",
+  email: "imalickis@psu.edu",
+  sexo: "Agender",
+  fecha_creacion: "22/07/2020"
+}, {
+  id: 30,
+  nombre: "Garrott",
+  apellido: "Borge",
+  email: "gborget@trellian.com",
+  sexo: "Male",
+  fecha_creacion: "26/03/2021"
+}]
