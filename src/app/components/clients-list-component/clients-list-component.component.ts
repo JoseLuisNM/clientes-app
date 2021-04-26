@@ -56,7 +56,7 @@ export class ClientsListComponentComponent implements OnInit, OnDestroy {
 
           Swal.fire(
           'Eliminado!',
-          'El cliente se a sido eliminado.',
+          'El cliente se a eliminado.',
           'success'
         )
 
