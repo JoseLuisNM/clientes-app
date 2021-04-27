@@ -1,5 +1,5 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
+<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark ">
+  <div class="container">
     <a class="navbar-brand" href="#">Clientes API REST</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,7 +11,7 @@
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" name="search-input" type="search" placeholder="Buscar" [(ngModel)]="queryStr" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit" (click)="onSearchQueryChanged()">Search</button>
+        <button class="btn btn-info btn-outline-success" type="submit" (click)="onSearchQueryChanged()">Buscar</button>
       </form>
     </div>
   </div>
