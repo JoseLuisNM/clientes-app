@@ -18,7 +18,7 @@ export class ClientsListComponentComponent implements OnInit, OnDestroy {
   private subscriptions: Subscription[] = [];
 
   constructor(private service: ClienteService,
-      private headerService: HeaderService) { }
+              private headerService: HeaderService) { }
 
 
   ngOnInit(): void {
@@ -39,7 +39,7 @@ export class ClientsListComponentComponent implements OnInit, OnDestroy {
 
     this.service.obtenerClientes().subscribe(
       result => this.listaClientes = result
-    )
+    );
   }
 
   private buscarClientePorQuery(query: string): void {

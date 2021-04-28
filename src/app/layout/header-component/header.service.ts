@@ -13,6 +13,7 @@ export class HeaderService {
   constructor() { }
 
   public setQueryString (query: string): void{
+    console.log(query);
     this.searchQueryChanged.next(query);
   }
 }

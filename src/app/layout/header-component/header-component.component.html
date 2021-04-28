@@ -5,16 +5,17 @@
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div>
+    <!-- <div>
       <button class="btn btn-primary" routerLink="/cliente/form">Añadir cliente</button>
-    </div>
+    </div> -->
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" name="search-input" type="search" placeholder="Buscar" [(ngModel)]="queryStr" aria-label="Search">
-        <button class="btn btn-info btn-outline-success" type="submit" (click)="onSearchQueryChanged()">Buscar</button>
+        <button class="btn btn-info btn-outline-dark" type="submit" (click)="onSearchQueryChanged()">Buscar</button>&nbsp;
+        <button class="btn btn-info btn-outline-dark" type="submit" routerLink="/cliente/form">Añadir</button>
       </form>
     </div>
   </div>
