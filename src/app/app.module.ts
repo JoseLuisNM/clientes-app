@@ -1,3 +1,4 @@
+import { AppRoutingModule } from './app-routing.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { HttpClientModule } from '@angular/common/http';
@@ -6,7 +7,8 @@ import { FooterComponentComponent } from './layout/footer-component/footer-compo
 import { HeaderComponentComponent } from './layout/header-component/header-component.component';
 import { ClientsListComponentComponent } from './components/clients-list-component/clients-list-component.component';
 import { ClientsListDetallesComponent } from './components/clients-list-detalles/clients-list-detalles.component';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ClienteFormComponent } from './components/cliente-form/cliente-form.component';
 
 @NgModule({
   declarations: [
@@ -14,12 +16,15 @@ import { FormsModule } from '@angular/forms';
     FooterComponentComponent,
     HeaderComponentComponent,
     ClientsListComponentComponent,
-    ClientsListDetallesComponent
+    ClientsListDetallesComponent,
+    ClienteFormComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpClientModule
+    ReactiveFormsModule,
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

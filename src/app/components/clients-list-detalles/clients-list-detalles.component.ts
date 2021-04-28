@@ -1,5 +1,7 @@
+import { ClienteService } from 'src/app/services/cliente.service';
 import { ICliente } from './../../models/cliente';
 import { Component, Input, OnDestroy, OnInit, ViewChild } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
   selector: 'app-clients-list-detalles',
@@ -8,14 +10,17 @@ import { Component, Input, OnDestroy, OnInit, ViewChild } from '@angular/core';
 })
 export class ClientsListDetallesComponent implements OnInit, OnDestroy {
 
-  @Input() detallesClientes: ICliente;
+  detallesClientes: ICliente;
 
-  constructor() {
-
-   }
+  constructor( private activatedRoute: ActivatedRoute,
+              private service: ClienteService) {
+  }
 
   ngOnInit(): void {
-        console.log(this.detallesClientes);
+    this.activatedRoute.params.subscribe(params => {
+      this.service.obtenerPorId(params.id).subscribe( result => this.detallesClientes = result);
+      console.log(params);
+    });
   }
 
   ngOnDestroy(): void{

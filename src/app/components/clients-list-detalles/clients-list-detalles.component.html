@@ -1,11 +1,27 @@
-
-<div style="margin-bottom: 10px;"><hr>
-
-  <label>Id: {{ detallesClientes.id }}</label><br>
-  <label>Nombre: {{ detallesClientes.nombre }}</label><br>
-  <label>Apellido: {{ detallesClientes.apellido }}</label><br>
-  <label>Email: {{ detallesClientes.email }}</label><br>
-  <label>Sexo: {{ detallesClientes.sexo }}</label><br>
-  <label>Fecha de creacion: {{ detallesClientes.fechacreacion }}</label><br>
-
+<div class="card" style="width: 18rem;">
+  <div class="card-header bg-dark text-white">
+    {{ detallesClientes?.id}}: {{ detallesClientes?.nombre}} {{detallesClientes?.apellido}}
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Email: {{detallesClientes?.email}}</li>
+    <li class="list-group-item">Sexo: {{detallesClientes?.sexo}}</li>
+    <li class="list-group-item">Fecha de creacion: {{detallesClientes?.fechacreacion}}</li>
+  </ul>
+  <div class="card-footer">
+    <button class="btn btn-primary" routerLink="/">Ir a la lista</button>
+  </div>
 </div>
+
+<!-- <div class="card" style="width: 18rem; *ngIf="detallesCliente">
+  <div class="card-header">
+    {{ detallesClientes.nombre}} {{detallesClientes.apellido}}
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">Email: {{detallesClientes.email}}</li>
+    <li class="list-group-item">Sexo: {{detallesClientes.sexo}}</li>
+    <li class="list-group-item">Fecha de creacion: {{detallesClientes.fechacreacion}}</li>
+  </ul>
+  <div class="card-footer">
+    <button class="btn" routerLink="/">Ir a la lista</button>
+  </div>
+</div> -->

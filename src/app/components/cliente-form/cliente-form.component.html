@@ -1,0 +1,33 @@
+<form [formGroup]="formCliente" (submit)="onFormSubmit()">
+  <div class="mb-3">
+    <label for="nombre" class="form-label">Nombre:</label>
+    <input type="text" formControlName="nombre" class="form-control" name="nombre">
+  </div>
+  <div class="mb-3">
+    <label for="apellido" class="form-label">Apellido:</label>
+    <input type="text" formControlName="apellido" class="form-control" name="apellido">
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email:</label>
+    <input type="email" formControlName="email" class="form-control" name="email">
+  </div>
+  <div class="mb-3">
+    <label for="sexo" class="form-label">Sexo:</label>
+    <select name="sexo" class="form-select" formControlName="sexo">
+      <option value="Female">Female</option>
+      <option value="Male">Male</option>
+      <option value="Non-Binary">Non-Binary</option>
+      <option value="Bigender">Bigender</option>
+      <option value="Genderqueer">Genderqueer</option>
+      <option value="Polygender">Polygender</option>
+      <option value="Genderfluid">Genderfluid</option>
+      <option value="Agender">Agender</option>
+    </select>
+    <!-- <input type="text" formControlName="sexo" class="form-control" name="sexo"> -->
+  </div>
+  <div class="mb-3">
+    <label for="fechacreacion" class="form-label">Fecha:</label>
+    <input type="date" formControlName="fechacreacion" class="form-control" name="fechacreacion">
+  </div>
+  <button type="submit" class="btn btn-primary" [disabled]="formCliente.invalid">Enviar</button>
+</form>
